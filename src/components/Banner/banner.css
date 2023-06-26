@@ -1,0 +1,57 @@
+.banner_main{
+  background: #09363f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.banner_tag{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  margin-left: 10px;
+}
+.banner_container{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 12px;
+}
+.banner_container img{
+  width: 150px;
+  height: 100%;
+}
+.banner_review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.53rem;
+}
+.star_title img{
+  width: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-title img{
+  width: 200px;
+  height: auto;
+  padding-bottom: 10px;
+}
+.title_tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #ffff;
+}
+.banner_icon img{
+  width: 50px;
+  margin-top: 20px;
+}
+.banner_icon{
+  color: #ffff;
+}

@@ -1,0 +1,52 @@
+.nav_main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 15vh;
+  background-color: #e7f2f5;
+}
+.nav_log img{
+  width: 150px;
+}
+.nav_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.nav_title li{
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.Link{
+  text-decoration: none;
+  color: #395f66;
+}
+.nav_link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.nav_title_link a{
+  text-decoration: none;
+  font-size: 15.7px;
+  color: #395f66;
+  text-align: center;
+}
+.nav_title_welcom a{
+  text-decoration: none;
+  font-size: 17px;
+  color: #395f66;
+  padding: 15px 30px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.nav_title_welcom a:hover{
+  background: #395f66;
+  color: #e7f2f5;
+  transition: all 0.5s ease-in;
+}
